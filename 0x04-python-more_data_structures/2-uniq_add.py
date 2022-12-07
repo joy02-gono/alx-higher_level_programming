@@ -7,4 +7,4 @@ def uniq_add(my_list=[]):
             unique_list.append(x)
     for x in unique_list:
         sum += x
-        return (sum)
+    return (sum)
