@@ -669,6 +669,7 @@ class TestRectangle_update_args(unittest.TestCase):
         with self.assertRaisesRegex(TypeError, "x must be an integer"):
             r.update(89, 1, 2, "invalid", "invalid")
 
+
 class TestRectangle_update_kwargs(unittest.TestCase):
     """Unittests for testing update kwargs method of the Rectangle class."""
 
@@ -802,5 +803,3 @@ class TestRectangle_to_dictionary(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
